@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Single Page Application (SPA) functionality
+# This redirect ensures that React Router handles all the routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
