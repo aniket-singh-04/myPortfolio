@@ -44,4 +44,15 @@ export const projects: Project[] = [
     image: new URL("../assets/project0.png", import.meta.url).href,
     category: 'frontend',
   },
+  {
+    id: 5,
+    title: 'Password Manager',
+    description:
+      'A secure and simple password manager that helps users generate, store, and manage strong passwords safely. It ensures encrypted storage of sensitive credentials and provides an easy-to-use interface for quick access and organization of accounts.',
+    techStack: ['Node.js', 'Express.js', 'MongoDB', 'JWT Authentication','Git', 'GitHub','Argon2'],
+    githubLink: 'https://github.com/aniket-singh-04/Todo-Web-App',
+    liveLink: 'https://secretmanagers.netlify.app',
+    image: new URL("../assets/project5.png", import.meta.url).href,
+    category: 'fullstack',
+  },
 ];
