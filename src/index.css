@@ -251,15 +251,19 @@
 }
 
 .section-container {
+  width: 100%;
   max-width: 1280px;
-  margin: 0 auto;
-  padding-inline: 4rem;
-  margin-bottom: 0.5rem;
+  padding: 1rem;
 }
 
 @media (min-width: 768px) {
   .section-container {
-    padding-inline: 6rem;
-    margin-bottom: 1rem;
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .section-container {
+    padding-inline: 4rem;
   }
 }
