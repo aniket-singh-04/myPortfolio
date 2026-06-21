@@ -22,7 +22,7 @@ export default function ProfileFooter() {
               </div>
               <span className="font-display text-lg font-bold text-surface-900 dark:text-white">
                 {personalInfo.name.split(' ')[0]}
-                <span className="text-primary-500">.</span>dev
+                <span className="text-primary-500">.</span>tech
               </span>
             </div>
             <p className="max-w-xs text-sm text-surface-500 dark:text-surface-400">

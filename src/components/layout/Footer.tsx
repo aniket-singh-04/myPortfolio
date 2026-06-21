@@ -27,7 +27,7 @@ export default function Footer() {
                 AS
               </div>
               <span className="text-lg font-bold font-display text-surface-900 dark:text-white">
-                Aniket<span className="text-primary-500">.</span>dev
+                Aniket<span className="text-primary-500">.</span>tech
               </span>
             </div>
             <p className="text-sm text-surface-500 dark:text-surface-400 max-w-xs">

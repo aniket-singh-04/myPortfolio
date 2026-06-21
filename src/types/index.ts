@@ -11,6 +11,7 @@ export interface Project {
   id: number;
   title: string;
   description: string;
+  image?: string;
   techStack: string[];
   githubLink?: string;
   liveLink?: string;
@@ -18,13 +19,15 @@ export interface Project {
 }
 
 // ========== Skills ==========
+
 export interface Skill {
   name: string;
+  icon: IconType;
 }
 
 export interface SkillCategory {
   title: string;
-  icon: string | IconType; 
+  icon: IconType;
   skills: Skill[];
   color: string;
 }
@@ -49,7 +52,7 @@ export interface Certificate {
   credentialId?: string;
   link?: string;
   image?: string;
-  category: string;
+  category: "Frontend Development" | "Backend Development" | "Programming" | "Innovation" | "Web Development" | "Course";
 }
 
 // ========== Social Links ==========
@@ -58,13 +61,4 @@ export interface SocialLink {
   url: string;
   icon: string;
   username: string;
-}
-
-
-export interface TimelineItem {
-  id: number;
-  year: string;
-  title: string;
-  description: string;
-  icon: string;
 }

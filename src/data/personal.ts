@@ -1,14 +1,14 @@
 import avatarImage from '../assets/my-pic.png';
 import type { NavLink, SocialLink } from '../types';
-import resumeFile from './resume.pdf';
+import resumeFile from './Aniket-resume.pdf';
 
 export const personalInfo = {
   name: 'Aniket Singh',
   title: 'B.Tech Student | Full Stack Developer',
   tagline:
-    'Building dependable web experiences with a focus on clarity, responsiveness, and maintainable code.',
+    'Building scalable and reliable web applications with modern backend and cloud technologies.',
   summary:
-    "I'm a computer science student who enjoys turning ideas into clean, practical web interfaces. I focus on responsive frontends, solid fundamentals, and learning by building projects that keep getting a little better every iteration.",
+    "Computer Science student focused on full-stack development, backend engineering, and system design. Building scalable applications with MERN, AWS, and modern software development practices.",
   email: 'aniketsingh.lab@gmail.com',
   phone: '+91 86014 42061',
   location: 'Bhopal, Madhya Pradesh, India',

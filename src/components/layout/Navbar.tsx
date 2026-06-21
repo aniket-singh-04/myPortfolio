@@ -38,7 +38,7 @@ export default function Navbar({ isDark, toggleDark }: NavbarProps) {
             AS
           </div>
           <span className="text-lg font-bold font-display hidden sm:block">
-            Aniket<span className="text-primary-500">.</span>dev
+            Aniket<span className="text-primary-500">.</span>tech
           </span>
         </a>
 
@@ -137,7 +137,7 @@ export default function Navbar({ isDark, toggleDark }: NavbarProps) {
 
             {/* Footer */}
             <div className="absolute bottom-6 left-6 right-6 text-sm text-surface-400">
-              © 2026 Aniket.dev
+              © 2026 Aniket.tech
             </div>
           </div>
         </>

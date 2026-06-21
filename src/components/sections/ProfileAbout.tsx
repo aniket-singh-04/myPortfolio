@@ -27,7 +27,7 @@ export default function ProfileAbout() {
 
       <div className="grid items-center gap-10 lg:grid-cols-2">
         <div className="group relative">
-          <div className="relative z-10 mx-auto aspect-square w-full max-w-md overflow-hidden rounded-3xl border border-surface-200 bg-surface-50 dark:border-surface-700 dark:bg-surface-900 md:aspect-[4/3] lg:aspect-square">
+          <div className="relative z-10 mx-auto aspect-square w-full max-w-md overflow-hidden rounded-3xl border border-surface-200 bg-surface-50 dark:border-surface-700 dark:bg-surface-900 md:aspect-4/3 lg:aspect-square">
             <img
               src={personalInfo.avatarUrl}
               alt={`${personalInfo.name} portrait`}

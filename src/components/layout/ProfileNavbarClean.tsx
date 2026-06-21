@@ -39,7 +39,7 @@ export default function ProfileNavbarClean({
           </div>
           <span className="hidden font-display text-lg font-bold text-surface-900 dark:text-white sm:block">
             {personalInfo.name.split(' ')[0]}
-            <span className="text-primary-500">.</span>dev
+            <span className="text-primary-500">.</span>tech
           </span>
         </a>
 

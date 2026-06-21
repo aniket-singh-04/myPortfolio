@@ -253,11 +253,13 @@
 .section-container {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 4rem 1rem;
+  padding-inline: 4rem;
+  margin-bottom: 0.5rem;
 }
 
 @media (min-width: 768px) {
   .section-container {
-    padding: 6rem 2rem;
+    padding-inline: 6rem;
+    margin-bottom: 1rem;
   }
 }

@@ -16,11 +16,11 @@ export default function ProfileHero() {
   return (
     <section
       id="home"
-      className="relative flex min-h-screen items-center overflow-hidden pb-12 pt-4 text-left"
+      className="relative flex min-h-screen items-center overflow-hidden pb-12 text-left"
     >
       <div className="pointer-events-none absolute inset-0 z-0">
-        <div className="absolute top-1/4 -right-[20%] h-[37.5rem] w-[37.5rem] rounded-full bg-primary-500/20 blur-[120px] mix-blend-screen" />
-        <div className="absolute -bottom-32 -left-[10%] h-[31.25rem] w-[31.25rem] rounded-full bg-accent-500/20 blur-[100px] mix-blend-screen" />
+        <div className="absolute top-1/4 -right-[20%] h-150 w-150 rounded-full bg-primary-500/20 blur-[120px] mix-blend-screen" />
+        <div className="absolute -bottom-32 -left-[10%] h-125 w-125] rounded-full bg-accent-500/20 blur-[100px] mix-blend-screen" />
         <div className="absolute left-1/2 top-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 bg-grid opacity-50" />
       </div>
 
@@ -79,13 +79,13 @@ export default function ProfileHero() {
 
         <div className="relative mt-10 flex items-center justify-center lg:mt-0">
 
-          <div className="relative h-52 w-52 sm:h-64 sm:w-64 md:h-72 md:w-72 lg:h-[28rem] lg:w-[28rem]">
+          <div className="relative h-52 w-52 sm:h-64 sm:w-64 md:h-72 md:w-72 lg:h-112 lg:w-md">
 
             {/* Outer Ring */}
             <div className="absolute inset-0 rounded-full border-2 border-dashed border-primary-500/30" />
 
             {/* Glow */}
-            <div className="absolute inset-3 sm:inset-4 rounded-full bg-gradient-to-br from-primary-500 to-accent-500 opacity-20 blur-xl" />
+            <div className="absolute inset-3 sm:inset-4 rounded-full bg-linear-to-br from-primary-500 to-accent-500 opacity-20 blur-xl" />
 
             {/* Avatar */}
             <div className="absolute inset-6 sm:inset-8 overflow-hidden rounded-full 
