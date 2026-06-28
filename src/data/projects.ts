@@ -35,6 +35,27 @@ export const projects: Project[] = [
   },
   {
     id: 4,
+    title: 'Password Manager',
+    description:
+    'A secure and simple password manager that helps users generate, store, and manage strong passwords safely. It ensures encrypted storage of sensitive credentials and provides an easy-to-use interface for quick access and organization of accounts.',
+    techStack: ['Node.js', 'Express.js', 'MongoDB', 'JWT Authentication','Git', 'GitHub','Argon2'],
+    githubLink: 'https://github.com/aniket-singh-04/Password-Manager-Generator',
+    liveLink: 'https://secretmanagers.netlify.app',
+    image: new URL("../assets/project5.png", import.meta.url).href,
+    category: 'fullstack',
+  },
+  {
+    id: 5,
+    title: 'User Management',
+    description: 'A modern React-based user management system to create, view, and manage user details with a clean UI and responsive design.',
+    techStack: ['React', 'Javascript', 'Typescript', 'Tailwind'],
+    githubLink: 'https://github.com/aniket-singh-04/User_Management',
+    liveLink: 'https://users-accounts.netlify.app',
+    image: new URL("../assets/project6.png", import.meta.url).href,
+    category: 'frontend',
+  },
+  {
+    id: 6,
     title: 'Simple Todo App',
     description:
       'A simple and clean Todo List web application that helps users add, manage, and track daily tasks efficiently. It features an easy-to-use interface where tasks can be added and marked as completed, helping improve productivity and organization.',
@@ -43,16 +64,5 @@ export const projects: Project[] = [
     liveLink: 'https://simple-todos-web-app.netlify.app',
     image: new URL("../assets/project0.png", import.meta.url).href,
     category: 'frontend',
-  },
-  {
-    id: 5,
-    title: 'Password Manager',
-    description:
-      'A secure and simple password manager that helps users generate, store, and manage strong passwords safely. It ensures encrypted storage of sensitive credentials and provides an easy-to-use interface for quick access and organization of accounts.',
-    techStack: ['Node.js', 'Express.js', 'MongoDB', 'JWT Authentication','Git', 'GitHub','Argon2'],
-    githubLink: 'https://github.com/aniket-singh-04/Password-Manager-Generator',
-    liveLink: 'https://secretmanagers.netlify.app',
-    image: new URL("../assets/project5.png", import.meta.url).href,
-    category: 'fullstack',
   },
 ];
