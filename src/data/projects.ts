@@ -65,4 +65,15 @@ export const projects: Project[] = [
     image: new URL("../assets/project0.png", import.meta.url).href,
     category: 'frontend',
   },
+  {
+    id: 7,
+    title: 'Task Tracker App',
+    description:
+      'A modern full-stack Task Planner app built with the MERN stack, featuring task creation, editing, filtering, and a clean responsive UI.',
+    techStack: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Vite', 'Tailwind CSS v4', 'React Icons', 'Node.js', 'Express.js', 'MongoDB', 'Git', 'GitHub'],
+    githubLink: 'https://github.com/aniket-singh-04/task-tracker',
+    liveLink: 'https://tasks-planer.netlify.app/',
+    image: new URL("../assets/project7.png", import.meta.url).href,
+    category: 'fullstack',
+  },
 ];
