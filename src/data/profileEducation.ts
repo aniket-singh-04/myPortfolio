@@ -4,7 +4,7 @@ export const profileEducation: Education[] = [
   {
     id: 1,
     institution: 'IES College of Technology, Bhopal',
-    degree: 'Bachelor of Technology (B.Tech), 3rd Year',
+    degree: 'Bachelor of Technology (B.Tech),
     specialization: 'Computer Science and Engineering',
     duration: '2023 - Present',
     grade: 'Current CGPA: 7.96',
@@ -16,7 +16,7 @@ export const profileEducation: Education[] = [
     institution: 'MG Inter College',
     degree: 'Higher Secondary (XII)',
     specialization: 'Science',
-    duration: '2019 - 2021',
+    duration: '2021 - 2023',
     grade: 'Percentage: 81.4%',
     description:
       'Completed higher secondary education with a focus on mathematics, science, and foundational computer studies.',
