@@ -4,7 +4,7 @@ export const profileEducation: Education[] = [
   {
     id: 1,
     institution: 'IES College of Technology, Bhopal',
-    degree: 'Bachelor of Technology (B.Tech),
+    degree: 'Bachelor of Technology (B.Tech)',
     specialization: 'Computer Science and Engineering',
     duration: '2023 - Present',
     grade: 'Current CGPA: 7.96',
